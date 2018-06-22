@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Security & Automation</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">-->
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/about.css">
+    <!--<link rel="stylesheet" type="text/css" href="../css/Services.css">-->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!--<div class="col-sm-1"></div>-->
+            <div class="col-sm-12">
+                <nav class="navbar navbar-inverse navbar-expand-lg navbar-light bg-light sticky-top nav-upper">
+                    <div class="container upper_nav">
+                        <a class="navbar-brand image_border" href="#">
+                        <img src="./images/US_flag.png"  alt="image" class="img-fluid image_logo" id="Flag_image">
+                    </a>
+                        <ul class="nav navbar-upper navbar-fonts">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">United States (English)</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Canada (English)</a>
+                                    <a class="dropdown-item" href="#">Canada (French)</a>
+                                    <a class="dropdown-item" href="#">United States (English)</a>
+                                    <a class="dropdown-item" href="#">United States (Spanish)</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Australia</a>
+                                    <a class="dropdown-item" href="#">Austria</a>
+                                    <a class="dropdown-item" href="#">Belgium</a>
+                                    <a class="dropdown-item" href="#">Czech Republic</a>
+                                    <a class="dropdown-item" href="#">Denmark</a>
+                                    <a class="dropdown-item" href="#">Finland</a>
+                                    <a class="dropdown-item" href="#">France</a>
+
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">IBO Login</a>
+                                    <a class="dropdown-item" href="#">Customer Account</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-lower">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">
+                        <img src="./images/logo.png" height= 34px	width= 131px alt="image" class="img-fluid image_logo">
+                    </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav items">
+                                <li class="nav-item ">
+                                    <a class="nav-link active" id="example-popover" href="#" tabindex="0" role="popover" class="btn btn-secondary" data-toggle="popover" data-placement="bottom" data-trigger="focus">Services 
+                                        <span class="sr-only">(current)</span></a>
+                                </li>
+                                <div id="example-popover-content" class="hidden">
+                                    <div id="part1" class="breadcrumbs">
+                                        <ul>
+                                            <li class="level1"><a href="./Pages/ResidentialServices.html"><label class="popver_text">Residential Services</label></a>
+
+                                                <ul class="popover_subtext" id="ultest">
+                                                    <li><a href="./Pages/Gas&Electricity.html" class="popover_link" id="popover_link1" onclick="event1()">GAS & ELECTRICTY</a></li>
+                                                    <li><a href="./Pages/homephone_usa.html" class="popover_link" id="popover_link2" onclick="event2()">HOME PHONE</a></li>
+                                                    <li><a href="./Pages/high-speedinternet.html" class="popover_link" id="popover_link3" onclick="event3()">HIGH-SPEED INTERNET</a></li>
+                                                    <li><a href="./Pages/Satelite_ResidentialService.html" class="popover_link" id="popover_link6" onclick="event6()">SATELITE TV</a></li>
+                                                    <li><a href="./Pages/Security&smarthome.html" class="popover_link" id="popover_link4" onclick="event4()">SECURITY & AUTOMATION</a></li>
+                                                    <li><a href="./Pages/xoomsolar_usa.html" class="popover_link" id="popover_link3" onclick="event3()">SOLAR POWER</a></li>
+                                                    <li><a href="./Pages/wireless_residential.html" class="popover_link" id="popover_link5" onclick="event5()">WIRELESS</a></li>
+                                                    <li><a href="./Pages/refer-A-Friend.html" class="popover_link" id="popover_link7" onclick="event7()">REFER-A-FRIEND</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div id="part2" class="breadcrumbs">
+                                        <ul>
+                                            <li class="level1"><a href="./Pages/BusinessServices.html"><label class="popver_text">Business Services</label></a>
+                                                <ul class="popover_subtext">
+                                                    <li><a href="./Pages/BusinessPhone.html" class="popover_link" id="popover_link1b" onclick="event11()">BUSINESS PHONE</a></li>
+                                                    <li><a href="./Pages/Gas&Electricity.html" class="popover_link" id="popover_link2b" onclick="event22()">GAS & ELECTRICITY</a></li>
+                                                    <li><a href="./Pages/high-speedinternet.html" class="popover_link" id="popover_link3b" onclick="event33()">HIGH-SPEED INTERNET</a></li>
+                                                    <li><a href="./Pages/Satelite_BusinessServices.html" class="popover_link">SATELITE TV</a></li>
+                                                    <li><a href="./Pages/Security&auto_business.html" class="popover_link" id="popover_link4b" onclick="event44()">SECURITY & AUTOMATION</a></li>
+                                                    <li><a href="./Pages/wirelessforBusiness.html" class="popover_link" id="popover_link5b" onclick="event55()">WIRELESS</a></li>
+                                                    <li><a href="./Pages/Business_rewards.html" class="popover_link" id="popover_link6b" onclick="event66()">REWARDS & OFFERS</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" id="example-popover1" href="#" tabindex="0" role="popover" class="btn btn-secondary" data-toggle="popover" data-placement="bottom" data-trigger="focus">Home-Based Business
+                                     </a>
+                                </li>
+                                <div id="example-popover-content1" class="hidden">
+                                    <div class="" id="hbb_popover">
+                                        <ul class="popover_subtext1">
+                                            <li><a href="#" class="popover_link">WHY ACN?</a></li>
+                                            <li><a href="#" class="popover_link">SUCCESS STORIES</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" id="example-popover2" href="#" tabindex="0" role="popover" class="btn btn-secondary" data-toggle="popover" data-placement="bottom" data-trigger="focus">Company</a>
+                                </li>
+                                <div id="example-popover-content2" class="hidden">
+                                    <div class="" id="company_popover">
+                                        <ul class="popover_subtext1">
+                                            <li><a href="#" class="popover_link">WHO IS ACN?</a></li>
+                                            <li><a href="#" class="popover_link">GIVING BACK</a></li>
+                                            <li><a href="#" class="popover_link">NEWS</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="Pages/About.html">Events</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" id="example-popover3" href="#" tabindex="0" role="popover" class="btn btn-secondary" data-toggle="popover" data-placement="bottom" data-trigger="focus">Support</a>
+                                </li>
+                                <div id="example-popover-content3" class="hidden">
+                                    <div class="" id="hbb_popover">
+                                        <ul class="popover_subtext1">
+                                            <li><a href="#" class="popover_link">FAQs</a></li>
+                                            <li><a href="#" class="popover_link">CONTACT US</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </ul>
+
+                        </div>
+                        <!--<ul class="navbar-nav nav-picture" style="float: right;">
+                            <li class="nav-item"><label style="font-family: lato;padding-right: 5px;">Choices.Inc </label><img src="../images/user-img.png" alt="userimage" class="img-fluid"></li>
+                        </ul>-->
+                    </div>
+                </nav>
+
+            </div>
+            <!--<div class="col-sm-1"></div>-->
+        </div>
+        <!--Breadcrumbs-->
+        <div class="row">
+            <!--<div class="col-sm-1"></div>-->
+            <div class="col-sm-12">
+                <div class="row breadcrumbs_div">
+                    <div id="breadcrumb" class="row">
+                        <div class="col-sm-12" style="height: 20px;width: 500px;">
+                            <label> <a href="./Pages/BusinessServices.html" class="breadcrumbs_link">Business Service <label>  > </label></a>
+                            </label><label class="breadcrumbs_sublink"><a href="#" class="breadcrumbs_link breadcrumbs_sublink" >Payment processing</a></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="col-sm-1"></div>-->
+        </div>
+        <div class="row">
+            <!--<div class="col-sm-1"></div>-->
+            <div class="col-sm-12">
+                <div class="row service_head">
+                    <div class="col-sm-12">
+                        <p class="Service_heading">Payment Processing</p>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="col-sm-1"></div>-->
+        </div>
+        <!--Simple and Affordable Payment Processing Section -->
+        <div class="row">
+            <!--<div class="col-sm-1"></div>-->
+            <div class="col-sm-12">
+                <img src="./images/PP_business.png" alt="payment processing Image" class="img-fluid" width="100%" id="kids_image">
+                <img src="./images/PP-business_mobile.png" alt="payment processing Image" class="img-fluid" width="100%" id="kids_imagem">
+                <img src="./images/payment_tablet.png" width="100%" class="img-fluid gasimage" alt="rewards/; image" id="kids_imaget">
+                <p class="GEimgMainText BStext4">Simple and Affordable Payment Processing </p>
+                <p class="WLimgtext BStext4">A one-stop shop designed to save you money - this is our guarantee!</p>
+                <img src="./images/anovia-logo_payment.png" class="img-fluid PPimg" alt="energylogo">
+                <button class=" btn btn-primary WLimgbutton button_hide">Show Now</button>
+            </div>
+            <!--<div class="col-sm-1"></div>-->
+        </div>
+        <!--Button Section-->
+        <div class="row container_white1" id="button_view">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row container_white1">
+                    <div class="col-sm-12 container_white1">
+                        <button id="building_container-button_mobile" class="home_topbutton-centered btn btn-primary">Shop Now</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <!--The Ideal solution part 1-->
+        <div class="row">
+            <!-- <div class="col-sm-1"></div>-->
+            <div class="col-sm-12">
+                <div class="row container_white">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
+                                <div class="icons11">
+                                    <i class="fa fa-shield fa-3x mt-3" aria-hidden="true"></i>
+                                    <p class="iconstext_text1"><b>Secure and Reliable</b><br>Industry leading processing platform with virtually 100% up-time.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
+                                <div class="icons11">
+                                    <i class="fa fa-money fa-3x mt-3" aria-hidden="true"></i>
+                                    <p class="iconstext_text1"><b>Transparent Fees</b><br>No more unexpected fees. You’ll know what to expect every month, so you can spend time running your business.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
+                                <div class="icons11">
+                                    <i class="fa fa-credit-card fa-3x mt-3" aria-hidden="true"></i>
+                                    <p class="iconstext_text1"><b>Customized Solutions</b><br>We provide the tools you need to accept payments, whether online, in person or on the go.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 pathElement ">
+                                <div class="icons11">
+                                    <i class="fa fa-mobile fa-3x mt-3" aria-hidden="true"></i>
+                                    <p class="iconstext_text1"><b>Customer Service</b><br>24/7 technical support that is friendly, knowledgeable and ready to help.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </div>
+        <!--The Ideal solution part 2-->
+        <div class="row">
+            <!--<div class="col-sm-1"></div>-->
+            <div class="col-sm-12">
+                <div class="row idealsolution" style="padding-bottom: 0%;">
+                    <div class="col-sm-12">
+                        <p id="ideal_text">The Ideal Soultion for</p>
+                    </div>
+                </div>
+                <div class="row idealsolution" style="padding-top: 0%;">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                <div class="icons1">
+                                    <i class="fa fa-user-circle mt-3 fa-3x" aria-hidden="true"></i>
+                                    <p class="iconstext_text1">Independent Contractors</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                <div class="icons1">
+                                    <i class="fa fa-shopping-bag mt-3 fa-3x" aria-hidden="true"></i>
+                                    <p class="iconstext_text1">Retail & Shopping</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                <div class="icons1">
+                                    <i class="fa fa-coffee mt-3 fa-3x" aria-hidden="true"></i>
+                                    <p class="iconstext_text1">Hospitality & Restaurants</p>
+                                </div>
+                            </div>
+                            <!--<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                <div class="icons1">
+                                    <i class="fa fa-id-badge fa-3x" aria-hidden="true"></i>
+                                    <p class="iconstext_text1">Services</p>
+                                </div>
+                            </div>-->
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                <div class="icons1">
+                                    <i class="fa fa-cart-plus mt-3 fa-3x" aria-hidden="true"></i>
+                                    <p class="iconstext_text1">Online Stores</p>
+                                </div>
+                            </div>
+                            <!--<div class="col-sm-1"></div>-->
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <!--<div class="col-sm-1"></div>-->
+        </div>
+        <!--Payment Processing Carousel-->
+        <div class="row">
+            <!--<div class="col-sm-1"></div>-->
+            <div class="col-sm-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner satellite_second">
+                        <div class="carousel-item active satelite_carousel">
+                            <div class=" w-100 ">
+                                <p class="centered1 building_container-text1">Businesses Love Anovia Payments</p>
+                                <p class="satelitecarousel_subtext">"Anovia Payments is a great credit card processor to work with!<br>Never push, great customer support, and great rates." </p>
+                                <p class="satelitecarousel_subtext1">Nathan Doerfler, Managing Member, Harvest Moon</p>
+                            </div>
+                        </div>
+                        <span class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="width: 26%!important;">
+                        <a class="btn-floating home_carousel" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-right home_icons" style="margin-left: 5px;color:#57C8CD;"></i></a> </span>
+                        <span class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" style="width: 26%!important;">
+                        <a class="btn-floating home_carousel" href="#multi-item-example" data-slide="next" style="opacity: 0.7"><i class="fa fa-chevron-left home_icons" style="margin-left: -5px;color:#57C8CD;"></i></a></span>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="col-sm-1"></div>-->
+        </div>
+        <!--When you choose ACN-->
+        <div class="row">
+            <!--<div class="col-sm-1"></div>-->
+            <div class="col-sm-12" style="text-align: center">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img src="./images/kids-img.png" class="img-fluid " alt="kids-bgimage" width="100%" id="kids_image">
+                        <img src="./images/kids-img_mobile.png" class="img-fluid " alt="kids-bgimage" width="100%" id="kids_imagem">
+                        <img src="./images/kids-img_tablet.png" class="img-fluid " alt="kids-bgimage" width="100%" id="kids_imaget">
+                        <p class="centeredtext" id="kids_imagetext"><label id="fundation_heading2" style="color: white;">When you choose ACN, you're making a <br>choice to end childhood hunger.</label></p>
+                        <button id="building_container-button" class="top-centeredbtn btn btn-primary">Learn how you can help</button>
+                    </div>
+                </div>
+                <section id="child-fed">
+                    <div class="container">
+                        <div class="row">
+                            <div class="d-none d-lg-block col-lg-12 col-xl-12  d-xl-block d-lg-12  d-xl-12 ">
+                                <img class="mt-5 mx-auto d-block img-fluid" src="../images/child-care-pc1.PNG" alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-6 d-lg-none d-xl-none">
+                                <img class="mt-5 mb-4 mx-auto d-block img-fluid" src="../images/child-fed.PNG" alt="">
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-12">
+                                <p class="text-center mt-5">With ACN’s Project Feeding Kids program, when you sign up for ACN High-Speed Internet, one meal will be donated to a child in need. Plus, every time you pay your monthly bill, another meal* will be provided.
+                                </p>
+                                <p class="mb-4 font-weight-bold  major-blue-1 text-center">Every bill. Every month. Every time.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!--<div class="col-sm-1"></div>-->
+        </div>
+        <!--footer desktop-->
+        <div class="row" id="desktop_footer">
+            <!--<div class="col-sm-1"></div>-->
+            <div class="col-sm-12">
+                <div class="row footer">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-3 footericons">
+                        <label class="icon_text">Stay Connected</label><br>
+                        <a href="#"><i class="fa fa-facebook-official footer_icons" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square footer_icons" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square footer_icons" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram footer_icons" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-google-plus-official footer_icons" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play footer_icons" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-vimeo-square footer_icons" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="col-sm-5"></div>
+                    <div class="col-sm-2 footericons">
+                        <a href="#"><img src="./images/dsa.png" class="img-fluid footer_img" alt="footer-logo_dsa"></a>
+                        <a href="#"><img src="./images/dsef1.png" class="img-fluid footer_img" alt="footer-logo_dsef"></a>
+                        <a href="#"><img src="./images/bbb.png" class="img-fluid footer_img" alt="footer-logo_bbb"></a>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row footer">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <p class="footer_text"><a href="#" class="footer_text"> Copyright: © 2017, ACN Opportunity, LLC </a>|<a href="#">  Privacy Policy </a>| <a href="#"> Terms & Conditions</a> |<a href="#">  Acceptable Use Policy </a>|<a href="#">  DSA Code of Ethics</a> |<a href="#">  Customer Rewards</a></p>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+
+            </div>
+            <!--<div class="col-sm-1"></div>-->
+        </div>
+
+        <!--footer mobile-->
+        <div class="row" id="footer1">
+            <!--<div class="col-sm-1"></div>-->
+            <div class="col-sm-12">
+                <!--only for mobile view-->
+                <div class="row footer">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10 footericons">
+                        <div id="footer_icon">
+
+                            <a href="#"><i class="fa fa-facebook-official footer_icons1" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter-square footer_icons1" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-linkedin-square footer_icons1" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-instagram footer_icons1" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-google-plus-official footer_icons1" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play footer_icons1" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-vimeo-square footer_icons1" aria-hidden="true"></i></a></div>
+                        <div id="footer_images">
+                            <a href="#"><img src="./images/dsa.png" class="img-fluid footer_img1" alt="footer-logo_dsa"></a>
+                            <a href="#"><img src="./images/dsef1.png" class="img-fluid footer_img1" alt="footer-logo_dsef"></a>
+                            <a href="#"><img src="./images/bbb.png" class="img-fluid footer_img1" alt="footer-logo_bbb"></a>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row footer">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <p class="footer_text1" style="float: left; width: 50%;">
+                            <a href="#"> Privacy Policy</a>
+                            <br><a href="#"> Terms & Conditions </a>
+                            <br><a href="#"> Acceptable Use Policy </a>
+                        </p>
+                        <p class="footer_text1" style="float: right; width: 50%;">
+                            <a href="#"> DSA Code of Ethics </a>
+                            <br><a href="#">ACN Careers</a>
+                            <br><a href="#">Earnings Statement</a><br>
+                        </p>
+                        <p class="footer_text1">
+                            <a href="#">Copyright: © 2018, ACN Opportunity, LLC</a>
+                        </p>
+
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+
+
+            </div>
+            <!--<div class="col-sm-1"></div>-->
+        </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--Custom JS-->
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>
+
