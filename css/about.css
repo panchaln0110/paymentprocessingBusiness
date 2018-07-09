@@ -1,3 +1,17 @@
+/*css changes*/
+#l-banner-gas{
+    height: 100%;
+    background: url(../images/GEgasmobile-img.png) center;
+    background-size: cover;
+    background-color: rgba(0,40,85,0.4);
+}
+#l-banner-payment{
+    height: 100%;
+    background: url(../images/PP-business_mobile.png) center;
+    background-size: cover;
+}
+/*css changes*/
+
 .col,
 .col-1,
 .col-10,

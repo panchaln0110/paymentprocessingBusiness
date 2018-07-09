@@ -1,3 +1,14 @@
+$(document).ready(function () {
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 60) {
+            $('.top-check-btn').addClass('fixed-top');
+        }
+        if ($(window).scrollTop() < 61) {
+            $('.top-check-btn').removeClass('fixed-top');
+        }
+    })
+})
+
 /*Popover and Breadcrumbs for service_new web page*/
 $(document).ready(function () {
     $(function () {
